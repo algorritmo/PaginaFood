@@ -203,164 +203,12 @@ body {
     transition: background ease 0.2s;
 }
 
-.tabs .tab {
-    order: 99;
-    flex-grow: 1;
-    width: 100%;
-    display: none;
-    padding-top: 25px;
-}
 
-.tabs input[type="radio"] {
-    display: none;
-}
-
-.tabs input[type="radio"]:checked + label {
-    border-bottom: 2px solid #b4a132;
-    color: #ffffff
-}
 
 .tabs input[type="radio"]:checked + label + .tab {
     display: block;
 }
 
-.product {
-    display: flex;
-    align-items: center;
-    padding: 25px;
-    margin: 0 10px
-}
-
-.product-img {
-    width: 50%;
-    text-align: left;
-}
-
-.product-img h4{
-    display: inline-block;
-    padding: 5px 7px;
-    line-height: 15px;
-    color: #ffffff;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 800;
-    border: 2px solid #555555;
-    border-radius: 10px;
-    margin-bottom: 50px;
-}
-
-.product-img img{
-    width: 150px;
-    height: 120px;
-}
-
-.product-txt {
-    width: 50%;
-    margin-left: 50px;
-    text-align: left;
-}
-
-.product-txt h4 {
-    color:#ffffff;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 800;
-    margin-bottom: 5px;
-}
-
-.product-txt p{
-    color: #A7A7A7;
-    font-size: 16px;
-    margin-bottom: 15px;
-}
-
-.product-txt span{
-    color: #ffffff;
-    font-size: 18px; 
-    font-weight: 800;
-}
-
-.info {
-    padding: 100px 0px;
-    display: flex;
-    align-items: center;
-}
-
-.info-img {
-    width: 50%;
-}
-
-.info-img img{
-    width: 500px;
-    height: 250px;
-}
-
-.info-txt {
-    width: 50%;
-}
-
-.info-txt h2{
-    font-size: 75px;
-    color: #ffffff;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin-bottom: 25px;
-}
-
-.info-txt p {
-    font-size: 18px;
-    color: #A7A7A7;
-    margin-bottom: 50px;
-}
-
-.btn-2  {
-    display: inline-block;
-    padding: 15px 35px;
-    background-color: #b4a132;
-    color: #ffffff;
-    font-weight: 800;
-    text-transform: uppercase;
-    border-radius: 50px;
-}
-
-.btn-2:hover {
-    background-color: #885f0b;
-}
-
-.horario {
-    padding: 100px 0px; 
-    background-color: #0d0d0d;
-}
-
-.horario-info h2 {
-    font-size: 75px;
-    color: #ffffff;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin-bottom: 50px;
-}
-
-.horario-txt {
-    display: flex;
-    justify-content: space-between;
-}
-
-.txt {
-    color: #ffffff;
-}
-
-.txt h4 {
-    font-size: 18px;
-    color: #A7A7A7;
-    margin-bottom: 30px;
-}
-
-.txt p {
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
 
 .map {
     filter: grayscale(100%) invert(92%) contrast(93%)
@@ -544,4 +392,20 @@ body {
     }
 
 
+    .swiper-container {
+        width: 100%;
+        height: 100px;
+    }
+    
+    .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff; /* Puedes cambiar el color según tu diseño */
+        padding: 1px;
+        border-radius: 1px;
+        margin: 0 1px;
+    }
 }

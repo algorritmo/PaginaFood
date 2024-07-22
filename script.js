@@ -45,3 +45,14 @@ tabInputs.forEach(function(input){
         thisSwiper.swiper.update();
     })
 })
+
+
+const swiper1 = new Swiper('.swiper-container', {
+    slidesPerView: 'auto', // Ajusta automáticamente el número de diapositivas visibles
+    spaceBetween: 10, // Espacio entre las diapositivas
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    freeMode: true, // Permite el desplazamiento libre
+});
